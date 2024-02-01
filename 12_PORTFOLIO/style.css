@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+/* header part */
+
+header{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(172, 74, 192);
+    box-shadow: 2px 3px 5px #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: yellow ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+
+/* main part */
+/*  section intro */
+.intro{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 50px;
+ align-items: center;
+ height: 650px;
+ width: 100vw;
+ background-color:  rgb(100, 33, 113);;
+}
+
+img{
+    border-radius: 45%;
+    height: 500px;
+    margin-top: 30px;
+    /* background: transparent; */
+}
+
+.title{
+    position: relative;
+    right: 8%;
+}
+
+.title h1{
+    font-size: 70px;
+    color: yellow;
+}
+
+span{
+    font-size: 40px;
+}
+
+.title h2{
+    font-size: 50px;
+    color: rgb(4, 15, 0);
+}
+
+
+/* Projectss section */
+.projects{
+    height: 156vh;
+    width: 100vw;
+    background-color: rgb(217, 131, 234);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.project-heading{
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.project-heading h1{
+    border-bottom: 1px solid;
+}
+
+#heading {
+    margin: 10px;
+    border-bottom: 1px solid;
+}
+
+
+.projects h2{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.pro-1,
+.pro-2,
+.pro-3,
+.pro-4,
+.pro-5,
+.pro-6,
+.pro-7,
+.pro-8,
+.pro-9,
+.pro-10{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(133, 28, 133);
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.pro-info{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.pro-info h3{
+    border-bottom: 1px solid black;
+}
+
+.pro-1 p,
+.pro-2 p,
+.pro-3 p,
+.pro-4 p,
+.pro-5 p,
+.pro-6 p,
+.pro-7 p,
+.pro-8 p,
+.pro-9 p,
+.pro-10 p
+{
+    padding: 5px;
+}
+
+.pro-link{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.pro-1_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Job_Application_Form.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-2_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Pizza_Shop_Basic_Landing_page.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-3_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("./Javascript_Documentation.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-4_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Food_Hotel_Site.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-5_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Photography_Landing_Page.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-6_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Parallax_Website.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-7_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Developers_Landing_Page.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-8_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Amazon_Clone.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-9_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Blog_Website.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pro-10_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/Music_Website.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/*  about section */
+
+.about-section{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(197, 50, 197);
+}
+
+.about-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.about-title h1{
+    border-bottom: 1px solid;
+}
+
+#tabel{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(131, 66, 131);
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.education h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#tabel td{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* contact section */
+/* footer  */
+
+.contact-section{
+    height: 300px;
+    width: 100vw;
+    background-color:  rgb(197, 50, 197);
+    
+}
+
+.contact-title{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-title h1{
+    border-bottom: 1px solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 60px;
+}
+
+.container img{
+    height: 100px;
+}
+

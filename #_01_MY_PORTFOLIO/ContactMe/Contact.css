@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:  rgb(193, 124, 222);
+
+    /* background: url("./background.jpg"); */
+    /* background: burlywood; */
+    /* border: 2px solid red; */
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    padding: 10px ;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background: burlywood;
+    border-radius: 5px;
+    
+}
+
+form input{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solod black;
+    border-radius: 10px;
+}
+
+button{
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.textarea{
+    border-radius: 1px solid black;
+    border-radius: 10px;
+}
+
+.homebtn{
+    position: absolute;
+    top: 8%;
+}
+
+.homebtn a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    font-weight: 700;
+}
+
+.homebtn a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.conhead{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}

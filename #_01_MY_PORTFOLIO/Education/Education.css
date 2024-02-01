@@ -1,0 +1,52 @@
+.tabel{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgb(193, 124, 222);
+
+    /* background-image: url("./background.jpg"); */
+    /* background: burlywood; */
+    background-size: cover;
+    font-size: 20px;
+}
+
+.eduhead{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.homebtn{
+    position: absolute;
+    top: 6%;
+    left: 20%;
+}
+
+
+.homebtn a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    font-weight: 700;
+}
+
+.homebtn a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}

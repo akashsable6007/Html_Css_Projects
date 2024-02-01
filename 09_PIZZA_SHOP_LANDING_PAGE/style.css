@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;  
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 10px;
+    background: #835a5a;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px #000;
+}
+
+.heading>h1{
+    text-decoration: underline;
+}
+
+.heading>p{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.main{
+    height: 87vh;
+    width: 100%;
+    /* background-color: tomato; */
+    background: url("/bcg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.piza-categiries{
+    position: relative;
+    right: 8%;
+    margin-top: 30px;
+    /* background-color: chartreuse; */
+    
+}
+
+#dropdown{
+    /* height: 300px;
+    width: 300px; */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    /* background-color: chartreuse; */
+    height: 50px;
+    width: 220px;
+    box-shadow: 5px 8px 5px;
+    /* background-color: chartreuse; */
+}
+
+
+.pizza-box{
+    height: 380px;
+    width: 380px;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    border-radius: 10px;
+    background: #835a5a;
+    box-shadow: 5px 5px 5px;
+
+}
+
+.pizza-img{
+    height: 50%;
+    width: 100%;
+    /* background-color: springgreen; */
+    background-image: url("/box-1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pizza-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-btn{
+    margin-top: 20px;
+}
+
+.cart-btn>button{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+
+.dileviry-box{
+    background: #835a5a;
+    height: 380px;
+    width: 380px;
+    position: relative;
+    top:30% ;
+    border-radius: 10px;
+    text-align: center;
+    left: -12%;
+    box-shadow: 5px 5px 5px;
+}
+
+.dileviry-box>h1{
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+}
+
+
+img{
+    height: 150px;
+    margin-top: 20px;
+}
+
+.boy-text>h2{
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 80px;
+    width: 100vw;
+    padding: 10px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 5px 5px 5px;
+}
+
+nav{
+    /* background-color: green; */
+    padding: 10px;
+    display: flex;
+    gap: 50%;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* section one */
+
+#section_one{
+    width: 100%;
+    height: 500px;
+    /* background-color: violet; */
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.title{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    top: 50%;
+    left: 10%;
+}
+.title h2{
+    font-size: 50px;
+}
+.title p{
+    font-size: 20px;
+}
+
+.banner{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    background-image: url('/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+
+/* section two */
+#section_two{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    border: 1px solid gray;
+    box-shadow: 3px 2px 5px;
+}
+
+.left-text{
+    position: relative;
+    top: 50%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-text h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+#date{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 70%;
+}
+
+.right-img{
+    height: 100%;
+    width: 50%;
+    /* background-color: tomato; */
+    background-image: url("/long-card.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* section third cards */
+
+#cards_section{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    /* background-color: turquoise; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card_one,
+.card_two,
+.card_three
+{
+    height: 100%;
+    width: 33%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 2px 5px;
+    /* padding: 10px; */
+}
+
+.card_one_img
+{
+    width: 100%;
+    height: 50%;
+    background-image: url("/card1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_one_text,
+.card_two_text,
+.card_three_text
+{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_one_text h3,
+.card_two_text h3,
+.card_three_text h3
+{
+    font-size: 25px;
+}
+
+
+.card_two_img {
+    width: 100%;
+    height: 50%;
+    background-image: url("/card2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_three_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("/card3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* arts section */
+#art_section
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(235, 238, 229);
+    margin-top: 50px;
+}
+
+.art_img{
+    width: 70%;
+    height: 50%;
+    background-image: url("/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* text-align: center; */
+}
+
+.art_text{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.art_text h2{
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+
+.moreinfo{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* footer */
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 3px 2px 4px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

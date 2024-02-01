@@ -1,0 +1,41 @@
+.tabel{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url("./background.jpg"); */
+    background: burlywood;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.eduhead{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.homebtn{
+    margin: 20px;
+}
+
+.homebtn a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(32, 7, 55);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+}

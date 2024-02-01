@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+header{
+    background-color: rgb(81, 66, 178);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px #00000040;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-section{
+    background-image: url("./Assets/hero_image.png");
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section h1{
+    font-size: 96px;
+}
+
+.hero-section h3{
+    font-size: 32px;
+}
+
+.music-section{
+    padding-top: 50px;
+    background-color: rgb(54, 54, 120);
+    color: white;
+}
+
+.music-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad-iphone-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    background-color: greenyellow;
+    font-weight: 700;
+}
+
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+
+}
+
+.about-music{
+    padding-top: 500px ;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.video-section{
+    background-image: url("./Assets/video.png");
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+}
+
+.hero-section , .video-section {
+    position: relative;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.gift-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.gift-containt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer{
+    color: white;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(33, 33, 116);
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
